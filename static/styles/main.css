@@ -1,14 +1,59 @@
 /* ------------------  Global Styling ------------------ */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
-
+@font-face {
+    font-family: 'Vazir';
+    src: url("../font-Vazir/Vazir.eot") format('eot');
+    src: url('../font-Vazir/Vazir.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir.woff') format('woff');
+    src: url('../font-Vazir/Vazir.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Bold.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Bold.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Bold.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Bold.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Light.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Light-FD.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Light.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Light.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Medium.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Medium.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Medium.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Medium.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Thin.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Thin.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Thin.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Thin.woff2') format('woff2');
+    src: url("../font-Vazir/Vazir-FD.eot") format('eot');
+    src: url('../font-Vazir/Vazir-FD.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-FD.woff') format('woff');
+    src: url('../font-Vazir/Vazir-FD.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Bold-FD.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Bold-FD.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Bold-FD.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Bold-FD.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Light-FD.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Light-FD.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Light-FD.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Light-FD.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Medium-FD.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Medium-FD.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Medium-FD.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Medium-FD.woff2') format('woff2');
+    src: url('../font-Vazir/Vazir-Thin-FD.eot') format('eot');
+    src: url('../font-Vazir/Vazir-Thin-FD.ttf') format('ttf');
+    src: url('../font-Vazir/Vazir-Thin-FD.woff') format('woff');
+    src: url('../font-Vazir/Vazir-Thin-FD.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 :root {
     --shaddow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
   }
 
 body{
+    direction: rtl;
+    text-align: right;
     background-color: rgba(232,233,239,1);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'vazir','Roboto', sans-serif;
 }
 
 
